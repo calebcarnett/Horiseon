@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Horiseon
 Modified Horiseon code so that it is functioning correctly and the CSS/HTML is properly organized. 
 
