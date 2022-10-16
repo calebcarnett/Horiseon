@@ -63,20 +63,17 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
-    max-height: 200px;
 }
 /*This selector changes the image properties in the Online Reputation Management part of the page */
 .float-right {
     float: right;
     margin-left: 25px;
-    max-height: 200px;
 }
 /*This selector changes the image properties in the Social Media Marketing part of the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    max-height: 200px;
 }
 /*This selector changes the properties of the lead generation block*/
 .benefits {
@@ -119,7 +116,10 @@ p {
     color: #ffffff;
 }
 
-
+/*This selector changes the maximum height of the images*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
 
 
 
