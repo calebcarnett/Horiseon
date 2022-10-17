@@ -64,7 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*This selector changes the image properties in the Social Media Marketing part of the page */
+/*This selector changes horizontal blocks in the middle of the page holding the majority of the content */
 .content {
     width: 75%;
     display: inline-block;
