@@ -8,6 +8,17 @@
 body {
     background-color: #d9dcd6;
 }
+/*This selector changes the properties of all the links on the page*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+    
+}
+/*This selector changes the properties of the paragraph element of the page*/
+p {
+    font-size: 15px;
+}
 /* This selector changes the properties of the header at the top of the page */
 .header {
     padding: 20px;
@@ -42,17 +53,8 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*This selector changes the properties of all the links on the page*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: large;
-    
-}
-/*This selector changes the properties of the paragraph element of the page*/
-p {
-    font-size: 15px;
-}
+
+
 /*This selector specifies the properties of the main meeting photo*/
 .hero {
     height: 800px;
@@ -61,6 +63,12 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+/*This selector changes the image properties in the Social Media Marketing part of the page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 /*This selector changes the image properties in the Search Engine Optimization part of the page */
 .float-left {
@@ -73,11 +81,27 @@ p {
     margin-left: 25px;
     margin-bottom: 30px;
 }
-/*This selector changes the image properties in the Social Media Marketing part of the page */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/*These selector changes the properties of the text within the paragraphs */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/*This selector changes the maximum height of the images*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+
+/*This selector changes the headings of the images listed*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 150%;
 }
 /*This selector changes the properties of the lead generation block*/
 .benefits {
@@ -107,30 +131,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-
-/*These selector changes the properties of the text within the paragraphs */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-/*This selector changes the maximum height of the images*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-
-/*This selector changes the headings of the images listed*/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 150%;
 }
 
 /*This selector changes the properties of the footer*/
