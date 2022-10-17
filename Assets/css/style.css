@@ -27,21 +27,18 @@ body {
     color: #d9dcd6;
 }
  /*This selector changes the properties of the ordered list in the header */
-.header div {
+.header ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-/*This selector changes the style of the list to not have bullet points*/
-.header div ul {
     list-style-type: none;
     list-style-position: inside;
-
 }
+
  /*This selector allows space in-between the list row*/
-.header div ul li {
+.header ul li {
     display: inline-block;
     margin-left: 25px;
 }
